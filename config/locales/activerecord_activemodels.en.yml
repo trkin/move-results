@@ -3,7 +3,9 @@ en:
     models:
       user:
         one: Employee
+        few: Employees
         other: Employees
+        accusative: employee
     attributes:
       user:
         name: Name

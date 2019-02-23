@@ -1,24 +1,8 @@
-# README
+# Opensource Move Results
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Clubs (particular users from a club - organizers) can publish results from
+events.
 
-Things you may want to cover:
+Since we need to know who created data we need to store users.
 
-* Ruby version
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...

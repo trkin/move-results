@@ -3,7 +3,9 @@ sr:
     models:
       user:
         one: Запослен
+        few: Запослена
         other: Запослени
+        accusative: запосленог
     attributes:
       user:
         name: Назив
