@@ -16,5 +16,6 @@ module MoveResults
     # -- all .rb files in that directory are automatically loaded after loading
     # the framework and any gems in your application.
     config.action_view.raise_on_missing_translations = true
+    I18n.default_locale = :en
   end
 end

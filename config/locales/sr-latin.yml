@@ -1,4 +1,5 @@
 sr-latin:
+  site_title: Rezultati kretanja
   language_name:
     en: English
     sr: Српски
@@ -22,3 +23,5 @@ sr-latin:
   data_item_name_successfully_updated: 'Podatak %{item_name} uspešno ažurira'
   data_item_name_successfully_changed: 'Podatak %{item_name} uspešno promenjen'
   data_item_name_successfully_deleted: 'Podatak %{item_name} uspešno obrisan'
+  can_not_be_greater_than_item_name: "ne može biti veći od %{item_name}"
+  count_members_are_needed: "%{count} članova je potrebno"

@@ -1,0 +1,48 @@
+kayaking:
+  name:
+    en: kayaking
+    sr: кајакаштво
+    sr-latin: kajakaštvo
+sprint_kayaking:
+  name:
+    en: sprint kayaking
+maraton_kayaking:
+  name:
+    en: maraton kayaking
+canoe_slalom:
+  name:
+    en: canoe slalom
+whitewater_kayaking:
+  name:
+    en: whitewater kayaking
+
+quadrathlon:
+  name:
+    en: Quadrathlon
+  description:
+    en: Swimming, cycling, kayaking and running
+
+kayak_duathlon:
+  name:
+    en: Kayak duathlon
+  description:
+    en: Kayak, running
+
+running:
+  name:
+    en: Running
+swimming:
+  name:
+    en: Swimming
+    sr-latin: Plivanje
+cycling:
+  name:
+    en: Cycling
+hiking:
+  name:
+    en: Hiking
+    sr: Планинарење
+
+triathlon:
+  name:
+    en: Triathlon

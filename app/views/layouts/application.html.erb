@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>MoveResults</title>
+    <title><%= fetch_title.present? ? fetch_title + ' | ' : '' %><%= t('site_title') %></title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
@@ -30,7 +30,7 @@
         <li class='nav-item px-1'>
           <% if current_user %>
             <strong><%= current_user.email %></strong>
-            <%= link_to t('sign_out'), destroy_user_session_path, method: :delete %>
+            <%= link_to t('my_devise.sign_out'), destroy_user_session_path, method: :delete %>
           <% else %>
             <%= link_to t('my_devise.sign_in'), new_user_session_path %>
           <% end %>

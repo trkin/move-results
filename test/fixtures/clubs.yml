@@ -1,0 +1,16 @@
+kayak_club:
+  name:
+    en: Kayak club
+  venue: sodros
+
+personal_kayak:
+  name:
+    en: Personal kayak
+
+personal_running:
+  name:
+    en: Personal running
+
+hiking_club:
+  name:
+    en: Hiking club

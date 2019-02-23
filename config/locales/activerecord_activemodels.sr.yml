@@ -9,6 +9,7 @@ sr:
     attributes:
       user:
         name: Назив
+        locale: Језик
         email: Имејл
         company: Компанија
         password: Лозинка

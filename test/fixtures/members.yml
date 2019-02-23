@@ -1,0 +1,15 @@
+kayak_club__milenko_zoric:
+  club: kayak_club
+  person: milenko_zoric
+
+kayak_club__marko_tomicevic:
+  club: kayak_club
+  person: marko_tomicevic
+
+kayak_club__personal_kayak_and_running:
+  club: kayak_club
+  person: personal_kayak_and_running
+
+personal_klub__personal_kayak_and_running:
+  club: personal_running
+  person: personal_kayak_and_running

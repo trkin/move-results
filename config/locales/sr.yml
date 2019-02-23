@@ -1,4 +1,5 @@
 sr:
+  site_title: Резултати кретања
   language_name:
     en: English
     sr: Српски
@@ -22,3 +23,5 @@ sr:
   data_item_name_successfully_updated: 'Податак %{item_name} успешно ажуриран'
   data_item_name_successfully_changed: 'Податак %{item_name} успешно промењен'
   data_item_name_successfully_deleted: 'Податак %{item_name} успешно обрисан'
+  can_not_be_greater_than_item_name: "не може бити већи од %{item_name}"
+  count_members_are_needed: "%{count} чланова је потребно"

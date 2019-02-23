@@ -1,0 +1,20 @@
+personal_long_kayaking:
+  name:
+    en: Personal long kayaking from NS to BG
+  club: personal_kayak
+  venue: strand
+  start_date: 2019-02-23
+  end_date: 2019-02-23
+  website:
+
+kayak_regata:
+  name:
+    en: First may kayak regatta
+  club: kayak_club
+  venue: sodros
+
+wednesday_hiking_23:
+  name:
+    en: Wednesday hiking 23
+  club: hiking_club
+  venue: mountain_popovica

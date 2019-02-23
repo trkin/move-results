@@ -1,4 +1,5 @@
 en:
+  site_title: Move Results
   language_name:
     en: English
     sr: Српски
@@ -22,3 +23,5 @@ en:
   data_item_name_successfully_updated: '%{item_name} successfully updated'
   data_item_name_successfully_changed: '%{item_name} successfully changed'
   data_item_name_successfully_deleted: '%{item_name} successfully deleted'
+  can_not_be_greater_than_item_name: "can't be greater than %{item_name}"
+  count_members_are_needed: "%{count} member are needed"

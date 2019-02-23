@@ -1,0 +1,25 @@
+k2_500m_men_seniors:
+  activity: kayaking
+  event: kayak_regata
+  name:
+    en: K2 500m men seniors
+  distance_m: 500
+  age_min:
+  age_max:
+  number_of_crew: 2
+
+long_bg:
+  activity: kayaking
+  event: personal_long_kayaking
+  name:
+    en: Personal long
+  distance_m: 50000
+
+wednesday_hiking_23:
+  activity: hiking
+  event: wednesday_hiking_23
+  name:
+    en: Wednesday hiking 23
+  distance_m: 25_000
+
+

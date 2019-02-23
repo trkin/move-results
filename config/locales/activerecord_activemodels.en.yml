@@ -9,6 +9,7 @@ en:
     attributes:
       user:
         name: Name
+        locale: Language
         email: Email
         company: Company
         password: Password

@@ -1,0 +1,9 @@
+k2_500m_men_seniors_semifinals:
+  discipline: k2_500m_men_seniors
+  category: <%= Race.categories[:semifinal] %>
+  started_at: 2019-02-23 17:12:56
+
+k2_500m_men_seniors_finals:
+  discipline: k2_500m_men_seniors
+  category: <%= Race.categories[:final] %>
+  started_at: 2019-02-23 17:12:56

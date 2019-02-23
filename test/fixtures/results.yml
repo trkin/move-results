@@ -1,0 +1,23 @@
+k2_500m_men_seniors_semifinals__250:
+  crew: k2_500m_men_seniors_semifinals
+  check_point: k2_500m_men_seniors__250
+  time_s: 60.1
+  position: 1
+
+k2_500m_men_seniors_semifinals__500:
+  crew: k2_500m_men_seniors_semifinals
+  check_point: k2_500m_men_seniors__500
+  time_s: 120.1
+  position: 2
+
+k2_500m_men_seniors_finals__250:
+  crew: k2_500m_men_seniors_finals
+  check_point: k2_500m_men_seniors__250
+  time_s: 65.1
+  position: 3
+
+k2_500m_men_seniors_finals__500:
+  crew: k2_500m_men_seniors_finals
+  check_point: k2_500m_men_seniors__500
+  time_s: 100.1
+  position: 1

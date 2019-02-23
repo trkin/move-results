@@ -1,0 +1,10 @@
+k2_500m_men_seniors__250:
+  discipline: k2_500m_men_seniors
+  distance_m: 250
+  position: 1
+
+k2_500m_men_seniors__500:
+  discipline: k2_500m_men_seniors
+  distance_m: 500
+  position: 2
+  final: true
