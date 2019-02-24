@@ -1,4 +1,7 @@
 class Discipline < ApplicationRecord
+  extend Mobility
+  translates :name
+
   belongs_to :activity
   belongs_to :event
 

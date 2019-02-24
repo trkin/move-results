@@ -1,5 +1,6 @@
 class ApplicationController < ActionController::Base
   around_action :_set_locale_from_session
+  before_action :authenticate_user!, except: :set_locale
 
   def _set_locale_from_session
     locale = current_user&.locale ||

@@ -1,7 +1,7 @@
 class PagesController < ApplicationController
-  def home
-    @recent_activities = Result.joins(check_points: [:discipline])
-  end
+  skip_before_action :authenticate_user!
+
+  def home; end
 
   def sign_in_development
     return unless Rails.env.development? || Rails.application.secrets.is_staging

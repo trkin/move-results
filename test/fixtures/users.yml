@@ -1,22 +1,15 @@
 DEFAULTS: &DEFAULTS
+  name: $LABEL name
   email: $LABEL@email.com
 
 superadmin:
   <<: *DEFAULTS
-  name:
-    en: super admin
 
 personal_kayak_and_running:
   <<: *DEFAULTS
-  name:
-    en: Personal kayak and running admin
 
 kayak_club_admin:
   <<: *DEFAULTS
-  name:
-    en: Kayak club admin
 
 kayak_club_not_admin:
   <<: *DEFAULTS
-  name:
-    en: Kayak club not admin

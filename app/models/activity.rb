@@ -1,6 +1,6 @@
 class Activity < ApplicationRecord
   extend Mobility
-  translates :name
+  translates :name, :description
 
   has_many :disciplines, dependent: :destroy
   has_many :activity_associations, dependent: :destroy

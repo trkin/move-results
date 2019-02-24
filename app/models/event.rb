@@ -1,4 +1,7 @@
 class Event < ApplicationRecord
+  extend Mobility
+  translates :name
+
   belongs_to :club
   belongs_to :venue
 

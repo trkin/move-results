@@ -1,0 +1,34 @@
+<nav aria-label="breadcrumb" class='d-flex'>
+  <ol class="flex-grow-1 breadcrumb breadcrumb--no-margin-bottom">
+    <li>
+      <%= link_to root_path do %>
+        <%= image_tag 'logo.svg', class: 'breadcrumb__image--max-width' %>
+      <% end %>
+    </li>
+    <li class='breadcrumb-item d-none d-sm-block'>
+      <%= link_to root_path do %>
+        <%= t('home') %>
+      <% end %>
+    </li>
+    <% fetch_breadcrumb_list.each_with_index do |(text, link), i| %>
+      <% last_item = i == fetch_breadcrumb_list.length - 1 %>
+      <li class="breadcrumb-item <%= 'active' if last_item %>" <%= 'aria-current="page"' if last_item %>>
+        <% if link.present? %>
+          <%= link_to link do %>
+            <%= text %>
+          <% end %>
+        <% else %>
+          <span id='breadcrumb-last'>
+            <%= text %>
+          </span>
+        <% end %>
+      </li>
+    <% end %>
+  </ol>
+  <div class='align-self-center'>
+    <%= button_tag class: "btn btn-link", 'data-toggle-active': '#sidebar,.sidebar__overlay' do %>
+      <i class="fas fa-bars d-sm-none fa-2x" aria-hidden="true"></i>
+      <span class='d-none d-sm-block'><%= current_user.name %></span>
+    <% end %>
+  </div>
+</nav>

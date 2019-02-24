@@ -1,0 +1,22 @@
+<nav id='sidebar' class=''>
+  <div class='d-flex align-items-center'>
+    <div class='text-secondary'><%= truncate current_user.email, length: 34 %></div>
+    <div class='ml-auto'>
+      <%= button_tag class: 'btn btn-link text-primary', 'data-toggle-active': '#sidebar,.sidebar__overlay' do %>
+        <i class="far fa-window-close fa-2x"></i>
+      <% end %>
+    </div>
+  </div>
+  <div class='list-group list-group-flush'>
+    <%= link_to "<i class='demo-icon icon-mobile fa-fw mx-1'></i>#{t('home')}".html_safe, root_path, class: "list-group-item list-group-item-action text-primary #{'active' if controller_name == 'pages' }" %>
+    <div class='d-sm-none'>
+      <% if current_user.superadmin? %>
+        <span class='text-success'>
+          <%= t('admin_pages') %>
+        </span>
+        <%= link_to "<i class='fas fa-grip-horizontal fa-fw mx-1'></i>#{Activity.model_name.human(count: 2)}".html_safe, activities_path, class: "list-group-item list-group-item-action text-primary #{'active' if controller_name == 'workflows'}" %>
+      <% end %>
+    </div>
+  </div>
+</nav>
+<div class='sidebar__overlay' data-toggle-active='#sidebar,.sidebar__overlay'></div>
