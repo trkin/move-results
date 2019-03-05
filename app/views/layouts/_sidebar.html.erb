@@ -2,7 +2,7 @@
   <div class='d-flex align-items-center'>
     <div class='text-secondary'><%= truncate current_user.email, length: 34 %></div>
     <div class='ml-auto'>
-      <%= button_tag class: 'btn btn-link text-primary', 'data-toggle-active': '#sidebar,.sidebar__overlay' do %>
+      <%= button_tag class: 'btn btn-link text-primary', 'data-controller': 'activate', 'data-action': 'activate#toggle', 'data-activate-selector': '#sidebar,.sidebar__overlay' do %>
         <i class="far fa-window-close fa-2x"></i>
       <% end %>
     </div>
@@ -19,4 +19,4 @@
     </div>
   </div>
 </nav>
-<div class='sidebar__overlay' data-toggle-active='#sidebar,.sidebar__overlay'></div>
+<div class='sidebar__overlay' data-controller='activate' data-action='click->activate#toggle' data-activate-selector='#sidebar,.sidebar__overlay'></div>
