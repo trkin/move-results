@@ -3,7 +3,7 @@
     <div class='text-secondary'><%= truncate current_user.email, length: 34 %></div>
     <div class='ml-auto'>
       <%= button_tag class: 'btn btn-link text-primary', 'data-controller': 'activate', 'data-action': 'activate#toggle', 'data-activate-selector': '#sidebar,.sidebar__overlay' do %>
-        <i class="far fa-window-close fa-2x"></i>
+        <i class="icon-cancel-outline"></i>
       <% end %>
     </div>
   </div>

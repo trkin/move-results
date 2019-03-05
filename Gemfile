@@ -61,3 +61,6 @@ gem 'bootstrap_form'
 
 # translation
 gem 'mobility', '~> 0.8.6'
+
+# pick icons
+gem 'fontello_rails_converter'
