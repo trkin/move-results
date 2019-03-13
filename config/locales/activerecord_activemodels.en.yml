@@ -6,6 +6,12 @@ en:
         few: Employees
         other: Employees
         accusative: employee
+    models:
+      activity:
+        one: Activity
+        few: Activities
+        other: Activities
+        accusative: activity
     attributes:
       user:
         name: Name

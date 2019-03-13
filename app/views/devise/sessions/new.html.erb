@@ -4,6 +4,12 @@
   <small>
     Only on development or staging
     <dl>
+      <dt>superadmin</dt>
+      <dd>
+        <% User.where(superadmin: true).limit(5).each do |user| %>
+          <%= link_to user.email, sign_in_development_path(user) %>
+        <% end %>
+      </dd>
       <dt>admin</dt>
       <dd>
         <% User.joins(:club_users).where(club_users: { admin: true }).order(:created_at).limit(5).each do |user| %>

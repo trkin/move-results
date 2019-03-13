@@ -4,6 +4,7 @@ DEFAULTS: &DEFAULTS
 
 superadmin:
   <<: *DEFAULTS
+  superadmin: true
 
 personal_kayak_and_running:
   <<: *DEFAULTS

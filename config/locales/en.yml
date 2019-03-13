@@ -26,5 +26,6 @@ en:
   can_not_be_greater_than_item_name: "can't be greater than %{item_name}"
   count_members_are_needed: "%{count} member are needed"
   only_for_admin: Only for admin
+  only_for_superadmin: Only for superadmin
   admin_pages: Admin pages
   home: Home

@@ -6,15 +6,15 @@
 %>
 <div class='bg-light <%= left_navigation ? 'd-none d-sm-inline-block text-left left-navigation--min-width' : 'sticky-footer d-sm-none' %>'>
   <ul class='nav nav-pills <%= left_navigation ? 'flex-column ' : 'justify-content-around flex-nowrap ' %>'>
-    <li class='nav-item flex-fill'>
-      <%= link_to activities_path, class: "nav-link nav-link--no-padding rounded-0 #{'active' if controller_name == 'activities'}" do %>
-        <div class='d-flex flex-column-reverse d-sm-inline-flex flex-sm-row align-items-center'>
-          <i class='fas fa-search fa-fw mx-1' aria-hidden='true'></i>
+    <%# <li class='nav-item flex-fill'> %>
+    <%#   <%= link_to activities_path, class: "nav-link nav-link--no-padding rounded-0 #{'active' if controller_name == 'activities'}" do %1> %>
+    <%#     <div class='d-flex flex-column-reverse d-sm-inline-flex flex-sm-row align-items-center'> %>
+    <%#       <i class='fas fa-search fa-fw mx-1' aria-hidden='true'></i> %>
 
-          <span><%= Activity.model_name.human count: 2 %></span>
-        </div>
-      <% end %>
-    </li>
+    <%#       <span><%= Activity.model_name.human count: 2 %1></span> %>
+    <%#     </div> %>
+    <%#   <% end %1> %>
+    <%# </li> %>
     <% if current_user.superadmin? %>
       <li class='nav-item d-none d-sm-block'>
         <span class='text-success'>
@@ -22,10 +22,10 @@
         </span>
       </li>
       <li class='nav-item d-none d-sm-block'>
-        <%= link_to admin_workflows_path, class: "nav-link nav-link--no-padding rounded-0 #{'active' if controller_name == 'workflows'}" do %>
+        <%= link_to activities_path, class: "nav-link nav-link--no-padding rounded-0 #{'active' if controller_name == 'activities'}" do %>
           <div class='d-flex flex-column-reverse d-sm-inline-flex flex-sm-row align-items-center'>
             <i class='fas fa-grip-horizontal fa-fw mx-1' aria-hidden='true'></i>
-            <span><%= Workflow.model_name.human(count: 2) %></span>
+            <span><%= Activity.model_name.human(count: 2) %></span>
           </div>
         <% end %>
       </li>

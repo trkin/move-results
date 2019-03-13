@@ -5,10 +5,11 @@ So it is for sports that involves moving and competing with a clock.
 Supports:
 
 * semifinals, finals race
-* crew (like K4-500m)
 * results per each check point (on 250m, on 500m)
-* relay (like 2x12km or triatlon) is modeled with multiple checkpoint and
-  multiple number of crew members
+* crew (like K4-500m)
+* multi-sport (triatlon) is modeled with multiple number of check points
+* relay (like 2x12km) is modeled with multiple checkpoint and
+  multiple number of crew members (it is usually single person at one time)
 
 Model starts from activity (running, kayaking, hiking) and clubs can organize
 events for specific discipline that belongs to an activity.

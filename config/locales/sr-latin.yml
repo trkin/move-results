@@ -26,5 +26,6 @@ sr-latin:
   can_not_be_greater_than_item_name: "ne može biti veći od %{item_name}"
   count_members_are_needed: "%{count} članova je potrebno"
   only_for_admin: Samo za administratore
+  only_for_superadmin: Samo za super administratore
   admin_pages: Admin pages
   home: Home

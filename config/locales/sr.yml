@@ -26,4 +26,5 @@ sr:
   can_not_be_greater_than_item_name: "не може бити већи од %{item_name}"
   count_members_are_needed: "%{count} чланова је потребно"
   only_for_admin: Само за администраторе
+  only_for_superadmin: Само за супер администраторе
   admin_pages: Admin pages

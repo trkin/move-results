@@ -1,0 +1,6 @@
+<%
+  breadcrumb Activity.model_name.human(count: 2) => nil
+%>
+<% @activities.each do |activity| %>
+  <%= activity.name %><br>
+<% end %>
