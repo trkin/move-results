@@ -1,52 +1,60 @@
-sprint_kayaking:
-  activity: sprint_kayaking
-  associated_activity: kayaking
-  category: <%= ActivityAssociation.categories[:consists_of] %>
+duathlon__walking_and_running:
+  activity: duathlon
+  associated: walking_and_running
+  kind: <%= ActivityAssociation.kinds[:consists_of] %>
+duathlon__cycling:
+  activity: duathlon
+  associated: cycling
+  kind: <%= ActivityAssociation.kinds[:consists_of] %>
 
-maraton_kayaking:
-  activity: maraton_kayaking
-  associated_activity: kayaking
-  category: <%= ActivityAssociation.categories[:consists_of] %>
+kayak_duathlon__walking_and_running:
+  activity: kayak_duathlon
+  associated: walking_and_running
+  kind: <%= ActivityAssociation.kinds[:consists_of] %>
+kayak_duathlon__kayaking:
+  activity: kayak_duathlon
+  associated: kayaking
+  kind: <%= ActivityAssociation.kinds[:consists_of] %>
 
-quadrathlon__swimming:
-  activity: quadrathlon
-  associated_activity: swimming
-  category: <%= ActivityAssociation.categories[:consists_of] %>
-quadrathlon__cycling:
-  activity: quadrathlon
-  associated_activity: cycling
-  category: <%= ActivityAssociation.categories[:consists_of] %>
-quadrathlon__kayak:
-  activity: quadrathlon
-  associated_activity: kayaking
-  category: <%= ActivityAssociation.categories[:consists_of] %>
-quadrathlon__running:
-  activity: quadrathlon
-  associated_activity: running
-  category: <%= ActivityAssociation.categories[:consists_of] %>
-quadrathlon__triathlon:
-  activity: quadrathlon
-  associated_activity: triathlon
-  category: <%= ActivityAssociation.categories[:similar] %>
-quadrathlon__kayak_duathlon:
-  activity: quadrathlon
-  associated_activity: kayak_duathlon
-  category: <%= ActivityAssociation.categories[:similar] %>
-
-
-triathlon__swimming:
+triathlon__walking_and_running:
   activity: triathlon
-  associated_activity: swimming
-  category: <%= ActivityAssociation.categories[:consists_of] %>
+  associated: walking_and_running
+  kind: <%= ActivityAssociation.kinds[:consists_of] %>
 triathlon__cycling:
   activity: triathlon
-  associated_activity: cycling
-  category: <%= ActivityAssociation.categories[:consists_of] %>
-triathlon__running:
+  associated: cycling
+  kind: <%= ActivityAssociation.kinds[:consists_of] %>
+triathlon__swimming:
   activity: triathlon
-  associated_activity: running
-  category: <%= ActivityAssociation.categories[:consists_of] %>
-triathlon_similar:
-  activity: triathlon
-  associated_activity: quadrathlon
-  category: <%= ActivityAssociation.categories[:similar] %>
+  associated: swimming
+  kind: <%= ActivityAssociation.kinds[:consists_of] %>
+
+kayak_triathlon__walking_and_running:
+  activity: kayak_triathlon
+  associated: walking_and_running
+  kind: <%= ActivityAssociation.kinds[:consists_of] %>
+kayak_triathlon__cycling:
+  activity: kayak_triathlon
+  associated: cycling
+  kind: <%= ActivityAssociation.kinds[:consists_of] %>
+kayak_triathlon__kayaking:
+  activity: kayak_triathlon
+  associated: kayaking
+  kind: <%= ActivityAssociation.kinds[:consists_of] %>
+
+quadrathlon__walking_and_running:
+  activity: quadrathlon
+  associated: walking_and_running
+  kind: <%= ActivityAssociation.kinds[:consists_of] %>
+quadrathlon__cycling:
+  activity: quadrathlon
+  associated: cycling
+  kind: <%= ActivityAssociation.kinds[:consists_of] %>
+quadrathlon__swimming:
+  activity: quadrathlon
+  associated: swimming
+  kind: <%= ActivityAssociation.kinds[:consists_of] %>
+quadrathlon__kayaking:
+  activity: quadrathlon
+  associated: kayaking
+  kind: <%= ActivityAssociation.kinds[:consists_of] %>

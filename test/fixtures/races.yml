@@ -1,9 +1,9 @@
-k2_500m_men_seniors_semifinals:
-  discipline: k2_500m_men_seniors
+kayak_regata__sprint_kayak_for_2__senior_500_m__semifinal:
+  discipline_happening: kayak_regata__sprint_kayak_for_2__senior_500_m
   category: <%= Race.categories[:semifinal] %>
   started_at: 2019-02-23 17:12:56
 
-k2_500m_men_seniors_finals:
-  discipline: k2_500m_men_seniors
+kayak_regata__sprint_kayak_for_2__senior_500_m__final:
+  discipline_happening: kayak_regata__sprint_kayak_for_2__senior_500_m
   category: <%= Race.categories[:final] %>
-  started_at: 2019-02-23 17:12:56
+  started_at: 2019-02-23 18:12:56

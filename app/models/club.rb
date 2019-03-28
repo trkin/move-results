@@ -4,7 +4,7 @@ class Club < ApplicationRecord
 
   belongs_to :venue, optional: true
 
-  has_many :events, dependent: :destroy
+  has_many :happenings, dependent: :destroy
   has_many :members, dependent: :destroy
   has_many :club_users, dependent: :destroy
   # has_many :users, through: :club_users # do not use this since club

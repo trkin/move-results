@@ -1,0 +1,19 @@
+250_of_500_m:
+  happening: kayak_regata
+  name:
+    en: Check on 250m of 500m
+
+triathlon_mini_till_12:
+  happening: triathlon
+  name:
+    en: Check after swim and cycle
+
+triathlon_kids_13_14:
+  happening: triathlon
+  name:
+    en: Check after swim and cycle
+
+triathlon_elit_18p:
+  happening: triathlon
+  name:
+    en: Check after swim and cycle

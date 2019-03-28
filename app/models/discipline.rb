@@ -3,8 +3,8 @@ class Discipline < ApplicationRecord
   translates :name
 
   belongs_to :activity
-  belongs_to :event
 
+  has_many :discipline_happenings, dependent: :destroy
   has_many :races, dependent: :destroy
   has_many :check_points, dependent: :destroy
 

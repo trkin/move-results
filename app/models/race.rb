@@ -1,5 +1,5 @@
 class Race < ApplicationRecord
-  belongs_to :discipline
+  belongs_to :discipline_happening
 
   has_many :crews, dependent: :destroy
 

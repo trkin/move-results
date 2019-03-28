@@ -24,7 +24,7 @@ sr-latin:
   data_item_name_successfully_changed: 'Podatak %{item_name} uspešno promenjen'
   data_item_name_successfully_deleted: 'Podatak %{item_name} uspešno obrisan'
   can_not_be_greater_than_item_name: "ne može biti veći od %{item_name}"
-  count_members_are_needed: "%{count} članova je potrebno"
+  crew_number_should_be_taget_count_instead_of_real_count: "Potrebno je %{target_count} člana umesto %{real_count}"
   only_for_admin: Samo za administratore
   only_for_superadmin: Samo za super administratore
   admin_pages: Admin pages

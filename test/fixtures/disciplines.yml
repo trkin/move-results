@@ -1,25 +1,50 @@
-k2_500m_men_seniors:
+sprint_kayak:
   activity: kayaking
-  event: kayak_regata
   name:
-    en: K2 500m men seniors
-  distance_m: 500
-  age_min:
-  age_max:
+    en: Sprint kayak
+
+sprint_kayak_for_2:
+  activity: kayaking
+  name:
+    en: Sprint kayak for two K-2
   number_of_crew: 2
 
-long_bg:
+sprint_kayak_without_registration:
   activity: kayaking
-  event: personal_long_kayaking
   name:
-    en: Personal long
-  distance_m: 50000
+    en: Sprint kayaking (no club registration needed)
 
-wednesday_hiking_23:
-  activity: hiking
-  event: wednesday_hiking_23
+sprint_kayak_or_recreational_kayak:
+  activity: kayaking
   name:
-    en: Wednesday hiking 23
-  distance_m: 25_000
+    en: Recreational kayaking
 
+triathlon:
+  activity: triathlon
+  name:
+    en: Triathlon (Swim, Bike, Run)
 
+kayak_4_5_m_triathlon:
+  activity: kayak_triathlon
+  name:
+    en: Kayak 4.5m bike run
+
+only_walking:
+  activity: walking_and_running
+  name:
+    en: Only walking
+
+only_slow_walking:
+  activity: walking_and_running
+  name:
+    en: Only young children walking speed
+
+running:
+  activity: walking_and_running
+  name:
+    en: Slow or fast running
+
+any_walking_and_running_speed:
+  activity: walking_and_running
+  name:
+    en: Any walking or running speed

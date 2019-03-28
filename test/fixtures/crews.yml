@@ -1,7 +1,3 @@
-marko_tomicevic__milenko_zoric__k2_500m_men_seniors_semifinals:
-  race: k2_500m_men_seniors_semifinals
-  lane: 1
-
-marko_tomicevic__milenko_zoric__k2_500m_men_seniors_finals:
-  race: k2_500m_men_seniors_finals
-  lane: 2
+marko_tomicevic__milenko_zoric__kayak_regata__sprint_kayak_for_2__senior_500_m:
+  discipline_happening: kayak_regata__sprint_kayak_for_2__senior_500_m
+  club: kayak_club

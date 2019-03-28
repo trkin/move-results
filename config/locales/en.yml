@@ -24,7 +24,7 @@ en:
   data_item_name_successfully_changed: '%{item_name} successfully changed'
   data_item_name_successfully_deleted: '%{item_name} successfully deleted'
   can_not_be_greater_than_item_name: "can't be greater than %{item_name}"
-  count_members_are_needed: "%{count} member are needed"
+  crew_number_should_be_taget_count_instead_of_real_count: "Crew number should be %{target_count} instead of %{real_count}"
   only_for_admin: Only for admin
   only_for_superadmin: Only for superadmin
   admin_pages: Admin pages

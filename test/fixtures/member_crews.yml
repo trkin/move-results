@@ -1,19 +1,9 @@
-marko_tomicevic__semifinals:
+marko_tomicevic:
   member: kayak_club__marko_tomicevic
-  crew: marko_tomicevic__milenko_zoric__k2_500m_men_seniors_semifinals
+  crew: marko_tomicevic__milenko_zoric__kayak_regata__sprint_kayak_for_2__senior_500_m
   position: 1
 
-milenko_zoric__semifinals:
+milenko_zoric:
   member: kayak_club__milenko_zoric
-  crew: marko_tomicevic__milenko_zoric__k2_500m_men_seniors_semifinals
-  position: 2
-
-marko_tomicevic__finals:
-  member: kayak_club__marko_tomicevic
-  crew: marko_tomicevic__milenko_zoric__k2_500m_men_seniors_finals
-  position: 1
-
-milenko_zoric__finals:
-  member: kayak_club__milenko_zoric
-  crew: marko_tomicevic__milenko_zoric__k2_500m_men_seniors_finals
+  crew: marko_tomicevic__milenko_zoric__kayak_regata__sprint_kayak_for_2__senior_500_m
   position: 2

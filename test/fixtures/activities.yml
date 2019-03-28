@@ -1,48 +1,52 @@
+walking_and_running:
+  name:
+    en: walking_and_running
+    sr: Ходање и трчање
+  description:
+  icon_name: walking_and_running
+
+swimming:
+  name:
+    en: Swimming
+    sr: Пливање
+
+cycling:
+  name:
+    en: Cycling
+    sr: Бициклизам
+
 kayaking:
   name:
-    en: kayaking
-    sr: кајакаштво
-    sr-latin: kajakaštvo
-sprint_kayaking:
-  name:
-    en: sprint kayaking
-maraton_kayaking:
-  name:
-    en: maraton kayaking
-canoe_slalom:
-  name:
-    en: canoe slalom
-whitewater_kayaking:
-  name:
-    en: whitewater kayaking
+    en: Kayaking
+    sr: Кајакаштво
 
-quadrathlon:
+skiing:
   name:
-    en: Quadrathlon
-  description:
-    en: Swimming, cycling, kayaking and running
+    en: Skiing
+
+duathlon:
+  name:
+    en: Duathlon
+    sr: Duatlon
 
 kayak_duathlon:
   name:
     en: Kayak duathlon
   description:
-    en: Kayak, running
-
-running:
-  name:
-    en: Running
-swimming:
-  name:
-    en: Swimming
-    sr-latin: Plivanje
-cycling:
-  name:
-    en: Cycling
-hiking:
-  name:
-    en: Hiking
-    sr: Планинарење
+    en: Kayaking and running
 
 triathlon:
   name:
     en: Triathlon
+    sr: Triatlon
+
+kayak_triathlon:
+  name:
+    en: Kayak triathlon
+  description:
+    en: Run bike kayak
+
+quadrathlon:
+  name:
+    en: Quadrathlon
+    sr: Kvadratlon

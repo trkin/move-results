@@ -13,7 +13,7 @@ Dir.entries("#{Rails.root}/test/fixtures").each do |file_name|
 
     # puts "klass=#{klass} column=#{column}"
     klass.constantize.find_each do |item|
-      next unless item.respond_to? "#{column}="
+      next unless item.respond_to?("#{column}=") && item.send(column).is_a?(String)
 
       item.send "#{column}=", item.send(column).humanize
       item.save # email can not be saved with spaces
@@ -21,5 +21,7 @@ Dir.entries("#{Rails.root}/test/fixtures").each do |file_name|
     already_proccessed.append "#{klass}-#{column}"
   end
 end
-puts Activity.all.map &:name
+# rubocop:disable Rails/Output
+puts Activity.all.map(&:name)
 puts 'db:seed and db:fixtures:load completed'
+# rubocop:enable Rails/Output

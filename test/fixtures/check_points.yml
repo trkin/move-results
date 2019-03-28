@@ -1,10 +1,34 @@
-k2_500m_men_seniors__250:
-  discipline: k2_500m_men_seniors
+250_of_500_m:
+  result_sampling: 250_of_500_m
   distance_m: 250
   position: 1
 
-k2_500m_men_seniors__500:
-  discipline: k2_500m_men_seniors
-  distance_m: 500
+triathlon_mini_till_12__swim:
+  result_sampling: triathlon_mini_till_12
+  distance_m: 50
+  position: 1
+
+triathlon_mini_till_12__cycle:
+  result_sampling: triathlon_mini_till_12
+  distance_m: 2000
   position: 2
-  final: true
+
+triathlon_kids_13_14__swim:
+  result_sampling: triathlon_kids_13_14
+  distance_m: 20
+  position: 1
+
+triathlon_kids_13_14__cycle:
+  result_sampling: triathlon_kids_13_14
+  distance_m: 5000
+  position: 2
+
+triathlon_elit_18p_swim:
+  result_sampling: triathlon_elit_18p
+  distance_m: 50
+  position: 1
+
+triathlon_mini_till_12_cycle:
+  result_sampling: triathlon_elit_18p
+  distance_m: 2000
+  position: 2
