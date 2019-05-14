@@ -9,5 +9,15 @@ require("@rails/activestorage").start()
 require("channels")
 require('bootstrap')
 
-// our stuff
-import "controllers"
+// our stimulus stuff
+import 'controllers'
+
+const jBox = require('jbox')
+
+document.addEventListener('turbolinks:load', () => {
+  // note that this will remove title attribute
+  new jBox('Tooltip', {
+    attach: '[title]',
+    theme: 'TooltipDark',
+  })
+})

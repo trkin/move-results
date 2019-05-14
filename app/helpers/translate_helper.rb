@@ -14,4 +14,12 @@ module TranslateHelper
   def t_notice(notice, model_class)
     t("data_item_name_#{notice}", item_name: model_class.model_name.human.titleize)
   end
+
+  def t_are_you_sure
+    if android_app?
+      nil
+    else
+      t('are_you_sure')
+    end
+  end
 end

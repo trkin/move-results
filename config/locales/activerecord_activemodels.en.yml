@@ -6,7 +6,6 @@ en:
         few: Employees
         other: Employees
         accusative: employee
-    models:
       activity:
         one: Activity
         few: Activities
@@ -22,3 +21,5 @@ en:
         password_confirmation: Password confirmation
         current_password: Current password
         remember_me: Remember me
+      activity:
+        name: Name

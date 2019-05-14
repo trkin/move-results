@@ -6,6 +6,11 @@ sr:
         few: Запослена
         other: Запослени
         accusative: запосленог
+      activity:
+        one: Активност
+        few: Активности
+        other: Активност
+        accusative: Активност
     attributes:
       user:
         name: Назив
@@ -16,3 +21,5 @@ sr:
         password_confirmation: Потврда лозинке
         current_password: Тренутна лозинка
         remember_me: Запамти ме
+      activity:
+        name: Назив

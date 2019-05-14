@@ -1,0 +1,13 @@
+<div id='form'>
+  <%= bootstrap_form_for @activity, url: @activity.new_record? ? activities_path : activity_path(@activity), remote: true, layout: :horizontal do |f| %>
+    <%= f.text_field :name %>
+    <div class='form--actions'>
+      <% unless @activity.new_record? %>
+        <%= link_to activity_path(@activity, return_to: params[:return_to]), method: :delete, 'data-confirm': t_are_you_sure, title: t_crud('delete', Activity) do %>
+          <i class="text-danger fa fa-trash-alt" aria-hidden="true"></i>
+        <% end %>
+      <% end %>
+      <%= f.submit class: 'btn float-right'%>
+    </div>
+  <% end %>
+</div>

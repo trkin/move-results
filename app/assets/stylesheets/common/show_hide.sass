@@ -1,0 +1,51 @@
+// animate show hide with opacity transition
+.d-none-opacity
+  visibility: hidden
+  opacity: 0
+  transition: visibility 0.5s ease, opacity 0.5s ease
+  // display: none
+  &.active
+    visibility: visible
+    opacity: 1
+    // display: initial
+
+// child element can not have greater opacity than parent so use rgba when you
+// need child to be shown
+// https://stackoverflow.com/a/13509036
+.d-none-rgba-text
+  color: rgba(0, 0, 0, 0)
+  &.active
+    color: rgba(0, 0, 0, 1)
+
+// show on hover
+//
+//  <li class="show-on-hover">
+//    Text<a href="" class="show-on-hover-target">X</a>
+//  </li>
+.show-on-hover-target
+  visibility: hidden
+  opacity: 0
+  transition: visibility 0.5s ease, opacity 0.5s ease
+.show-on-hover:hover
+  .show-on-hover-target
+    visibility: visible
+    opacity: 1
+// add class show to stay visible when not hovering, bootstrap dropdown does dat
+.show-on-hover-target.show
+  visibility: visible
+
+// toggle active without javascript
+// <input type="checkbox" id="toggle-active" class="toggle-active" />
+// <label for="toggle-active"><%= t('add') %></label>
+// <div class="toggle-active-target hide-not-important">
+// </div>
+// https://www.sitepoint.com/pure-css-off-screen-navigation-menu/
+.toggle-active
+  position: absolute
+  clip: rect(0, 0, 0, 0)
+
+  &:checked ~ .toggle-active-target
+    visibility: visible
+    opacity: 1
+label[for="toggle-active"]
+  cursor: pointer

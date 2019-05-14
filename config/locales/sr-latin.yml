@@ -18,6 +18,7 @@ sr-latin:
   edit: Uredi
   update: Ažuriranje
   delete: Izbriši
+  are_you_sure: Da li ste sigurni ?
   are_you_sure_to_remove_item_name: Da li ste sigurni da želite da obrišete %{item_name} ?
   data_item_name_successfully_created: 'Podatak %{item_name} uspešno napravljen'
   data_item_name_successfully_updated: 'Podatak %{item_name} uspešno ažurira'
@@ -28,4 +29,5 @@ sr-latin:
   only_for_admin: Samo za administratore
   only_for_superadmin: Samo za super administratore
   admin_pages: Admin pages
-  home: Home
+  home: Početak
+  last_message: Poslednja poruka

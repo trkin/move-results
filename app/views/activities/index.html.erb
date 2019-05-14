@@ -1,6 +1,10 @@
 <%
   breadcrumb Activity.model_name.human(count: 2) => nil
 %>
+<%= button_tag 'data-controller': 'modal', 'data-modal-url': new_activity_path, 'data-action': 'modal#open', 'data-modal-title': t_crud('add_new', Activity), class: 'btn btn-primary my-1' do %>
+  <i class="fa fa-plus" aria-hidden="true"></i>
+  <%= t_crud('add_new', Activity) %>
+<% end %>
 <% @activities.each do |activity| %>
-  <%= activity.name %><br>
+  <%= link_to activity.name, activity %><br>
 <% end %>

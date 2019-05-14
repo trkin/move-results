@@ -18,6 +18,7 @@ sr:
   edit: Уреди
   update: Ажурирање
   delete: Избриши
+  are_you_sure: Да ли сте сигурни ?
   are_you_sure_to_remove_item_name: Да ли сте сигурни да желите да обришете %{item_name} ?
   data_item_name_successfully_created: 'Податак %{item_name} успешно направљен'
   data_item_name_successfully_updated: 'Податак %{item_name} успешно ажуриран'
@@ -28,3 +29,5 @@ sr:
   only_for_admin: Само за администраторе
   only_for_superadmin: Само за супер администраторе
   admin_pages: Admin pages
+  home: Почетак
+  last_message: Последња порука

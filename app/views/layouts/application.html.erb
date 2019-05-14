@@ -26,15 +26,13 @@
         </div>
 
         <%= render 'layouts/navigation' %>
-        <%= render 'layouts/flash_notice_alert' %>
       <% elsif controller_name == 'pages' && action_name == 'home' %>
         <%= yield %>
-        <%= render 'layouts/flash_notice_alert' %>
       <% else %>
         <%= render 'layouts/navbar_not_logged_in' %>
         <%= yield %>
-        <%= render 'layouts/flash_notice_alert' %>
       <% end %>
+      <%= render 'layouts/flash_notice_alert' %>
     </body>
   <% end %>
 </html>

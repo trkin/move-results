@@ -88,6 +88,12 @@
       "css": "cancel-outline",
       "code": 59400,
       "src": "typicons"
+    },
+    {
+      "uid": "bc71f4c6e53394d5ba46b063040014f1",
+      "css": "cw",
+      "code": 59401,
+      "src": "fontawesome"
     }
   ]
 }

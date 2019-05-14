@@ -6,6 +6,11 @@ sr-latin:
         few: Zaposlena
         other: Zaposleni
         accusative: zaposlenog
+      activity:
+        one: Aktivnost
+        few: Aktivnosti
+        other: Aktivnosti
+        accusative: aktivnost
     attributes:
       user:
         name: Naziv
@@ -16,3 +21,5 @@ sr-latin:
         password_confirmation: Potvrda lozinke
         current_password: Trenutna lozinka
         remember_me: Zapamti me
+      activity:
+        name: Naziv

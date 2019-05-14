@@ -18,6 +18,7 @@ en:
   edit: Edit
   update: Update
   delete: Delete
+  are_you_sure: Are you sure ?
   are_you_sure_to_remove_item_name: Да ли сте сигурни да желите да обришете %{item_name} ?
   data_item_name_successfully_created: '%{item_name} successfully created'
   data_item_name_successfully_updated: '%{item_name} successfully updated'
@@ -29,3 +30,4 @@ en:
   only_for_superadmin: Only for superadmin
   admin_pages: Admin pages
   home: Home
+  last_message: Last message

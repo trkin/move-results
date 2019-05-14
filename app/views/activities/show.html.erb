@@ -1,0 +1,4 @@
+<%
+  breadcrumb Activity.model_name.human(count: 2) => activities_path, @activity.name => nil
+%>
+<%= button_tag @activity.name, 'data-controller': 'modal', 'data-action': 'modal#open', 'data-modal-url': edit_activity_path(@activity), class: 'btn btn-primary', 'data-modal-size': '80%' %>
